@@ -1,0 +1,38 @@
+#d1
+{
+    background-color: blanchedalmond;
+}
+#d2
+{
+    background-color: rgb(220, 79, 220);
+    border: 20px solid rgb(228, 54, 228);
+}
+#a1
+{
+    height: px; ;
+    border: 1opx solid red;
+}
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
